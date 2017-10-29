@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <svg>
+      <image xlink:href="../img/logo_cv.svg" width="170px" height="150px"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Abraham Mayorga</h2>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../html/educacion.html">Educación</a></li>
+      <li><a href="../html/experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Educación</h2>
+      <table border="1" cellspacing=0 cellpadding=2 bordercolor="black">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1996</td>
+            <td>Escuela Armando C. Bueso</td>
+            <td>La Lima, Cortes</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>Instituto Oficial Patria</td>
+            <td>La Lima, Cortes</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Universidad de San Pedro Sula</td>
+            <td>San Pedro Sula, Cortes</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+        </table>
+    <form autocomplete="on" name="fomulario">
+      <fieldset>
+      <legend><h3>Agregar Educación</h3></legend>
+      <label for="año">Año:</label>
+        <input type="number" min="1989" value="2016" required>
+      </br>
+      <label for="institucion">Institución:</label>
+        <input type="text" required>
+      </br>
+      </br>
+      <label for="lugar">Lugar:</label>
+        <textarea name="area_texto" rows="8" cols="30" required></textarea>
+      </br>
+      </br>
+      <label for="culmino">¿Culminó?:</label>
+        <input type="radio" name="gender" value="si" checked> Si
+        <input type="radio" name="gender" value="no"> No
+      </br>
+      </br>
+        <input type="submit" name= "envio" value="submit">
+      </br>
+      </br>
+      </fieldset>
+    </form>
+    <p>@Derechos Reservados</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:mayorga05@hotmail.com">mayorga05@hotmail.com</a></li>
+      <li><strong>Telefono:</strong> (504)9979-2920</li>
+      <li><strong>Direccion:</strong> San Pedro Sula, Honduras.</li>
+    </ul>
+  </body>
+</html>
